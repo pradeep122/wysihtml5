@@ -68,6 +68,11 @@ var wysihtml5ParserRules = {
         "wysiwyg-font-size-x-small": 1,
         "wysiwyg-font-size-xx-large": 1,
         "wysiwyg-font-size-xx-small": 1,
+        "wysiwyg-font-family-tahoma": 1,
+        "wysiwyg-font-family-verdana": 1,
+        "wysiwyg-font-family-impact": 1,
+        "wysiwyg-font-family-times": 1,
+        "wysiwyg-font-family-monospace": 1,
         "wysiwyg-text-align-center": 1,
         "wysiwyg-text-align-justify": 1,
         "wysiwyg-text-align-left": 1,
@@ -420,7 +425,8 @@ var wysihtml5ParserRules = {
         "font": {
             "rename_tag": "span",
             "add_class": {
-                "size": "size_font"
+                "size": "size_font",
+                "face": "font_family"
             }
         },
         "tt": {

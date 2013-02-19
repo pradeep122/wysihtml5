@@ -477,6 +477,19 @@ wysihtml5.dom.parse = (function() {
       return function(attributeValue) {
         return mapping[String(attributeValue).charAt(0)];
       };
+    })(),
+    
+    font_family: (function() {
+      var mapping = {
+        tahoma    : "wysiwyg-font-family-tahoma",
+        verdana   : "wysiwyg-font-family-verdana",
+        impact    : "wysiwyg-font-family-impact",
+        times     : "wysiwyg-font-family-times",
+        monospace : "wysiwyg-font-family-monospace"
+      };
+      return function(attributeValue) {
+        return mapping[String(attributeValue).toLowerCase()];
+      };
     })()
   };
   
