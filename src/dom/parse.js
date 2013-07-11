@@ -486,17 +486,17 @@ wysihtml5.dom.parse = (function() {
         impact    : "wysiwyg-font-family-impact",
         times     : "wysiwyg-font-family-times",
         monospace : "wysiwyg-font-family-monospace",
-        droid-sans: "wysiwyg-font-family-droid-sans",
+        'droid-sans': "wysiwyg-font-family-droid-sans",
         lato      : "wysiwyg-font-family-lato",
         arvo      : "wysiwyg-font-family-arvo",
         neuton    : "wysiwyg-font-family-neuton",
         lora      : "wysiwyg-font-family-lora",
-        droid-serif : "wysiwyg-font-family-droid-serif",
+        'droid-serif' : "wysiwyg-font-family-droid-serif",
         roboto    : "wysiwyg-font-family-roboto",
-        roboto-condensed : "wysiwyg-font-family-roboto-condensed",
+        'roboto-condensed' : "wysiwyg-font-family-roboto-condensed",
         oswald    : "wysiwyg-font-family-oswald",
-        open-sans : "wysiwyg-font-family-open-sans",
-        open-sans-condensed : "wysiwyg-font-family-open-sans-condensed"
+        'open-sans' : "wysiwyg-font-family-open-sans",
+        'open-sans-condensed' : "wysiwyg-font-family-open-sans-condensed"
       };
       return function(attributeValue) {
         return mapping[String(attributeValue).toLowerCase()];
