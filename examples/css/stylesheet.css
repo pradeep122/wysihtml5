@@ -131,3 +131,42 @@
 .wysiwyg-clear-left {
   clear: left;
 }
+
+.font-family [data-wysihtml5-command-value="droid-sans"] {
+  font-family: Droid Sans !important;
+}
+
+.font-family [data-wysihtml5-command-value="lato"] {
+  font-family: Lato !important;
+}
+
+.font-family [data-wysihtml5-command-value="arvo"] {
+  font-family: Arvo !important;
+}
+
+.font-family [data-wysihtml5-command-value="neuton"] {
+  font-family: Neuton !important;
+}
+
+.font-family [data-wysihtml5-command-value="lora"] {
+  font-family: Lora !important;
+}
+
+.font-family [data-wysihtml5-command-value="droid-serif"] {
+  font-family: Droid Serif !important;
+}
+.font-family [data-wysihtml5-command-value="roboto"] {
+  font-family: Roboto !important;
+}
+.font-family [data-wysihtml5-command-value="roboto-condensed"] {
+  font-family: Roboto Condensed !important;
+}
+.font-family [data-wysihtml5-command-value="oswald"] {
+  font-family: Oswald !important;
+}
+.font-family [data-wysihtml5-command-value="open-sans"] {
+  font-family: Open Sans !important;
+}
+.font-family [data-wysihtml5-command-value="open-sans-condensed"] {
+  font-family: Open Sans Condensed !important;
+}
