@@ -478,7 +478,7 @@ wysihtml5.dom.parse = (function() {
         return mapping[String(attributeValue).charAt(0)];
       };
     })(),
-    
+    // changed font families to support new google fonts
     font_family: (function() {
       var mapping = {
         tahoma    : "wysiwyg-font-family-tahoma",
